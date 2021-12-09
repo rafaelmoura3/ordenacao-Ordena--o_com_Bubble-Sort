@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+header{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+}
+
+header h1{
+    color: white;
+
+    font-size:  28px;
+    font-weight: 900;
+    line-height: 60px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main .ordenar-option{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 480px;
+
+    margin: 30px auto; 
+}
+
+main .ordenar-option button{
+    flex: 1 1 33%;
+    appearance: none;
+
+    background-color: firebrick;
+    color: white;
+
+    border: none;
+    outline: none;
+
+    padding: 15px 0px;
+    margin:  0px 8px;
+
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    cursor: pointer;
+}
+
+main .list-headers{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 480px;
+
+    margin: 30px auto; 
+    padding: 0px 15px;
+
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+main .listar {
+    display: block;
+    
+    width: 100%;
+    max-width: 480px;
+
+    margin: 0 auto;
+}
+
+main .listar .listar-cliente{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    
+
+    margin: 15px 0px; 
+    padding: 15px;
+
+    border: 1px solid firebrick;
+    border-radius: 8px;
+    
+    
+}
+
+main .listar .listar-cliente div:nth-child(1),
+main .listar .listar-cliente div:nth-child(2){
+    flex: unset;
+    
+}
+
